@@ -20,7 +20,6 @@
     "strictPropertyInitialization": true,
     "strictFunctionTypes": true
   },
-  "include":[
-    "src"
-  ]
+  "include": ["src"],
+  "exclude": ["jest.*-config.js"]
 }
