@@ -14,10 +14,10 @@ It includes:
 
 This repository adopts a domain driven design approach to separate each part of the code, into these layers:
 
-- Presentation (controllers): is the entry point to the application. It handles REST requests and executes basic validation.
-- Application: this layer is divided into use cases. Its purpose is to orchestrate (call) the domain and infrastructure layers.
-- Domain: this is the core of our application. It contains all of the business rules and higher order logic.
-- Infrastructure: this layer contains all the logic to interact with the database and other lower level entities.
+- **Presentation:** (controllers): is the entry point to the application. It handles REST requests and executes basic validation.
+- **Application:** this layer is divided into use cases. Its purpose is to orchestrate (call) the domain and infrastructure layers.
+- **Domain:** this is the core of our application. It contains all of the business rules and higher order logic.
+- **Infrastructure:** this layer contains all the logic to interact with the database and other lower level entities.
 
 ### Functional Programming
 
